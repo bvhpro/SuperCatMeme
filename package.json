@@ -1,0 +1,37 @@
+{
+  "name": "SuperCatMeme",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "coin_scan_binance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bvhpro/SuperCatMeme"
+  },
+  "website": "https://github.com/bvhpro/SuperCatMeme.git",
+  "keywords": [
+    "binance",
+    "client",
+    "arbitrim"
+  ],
+  "author": "bvhpro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvhpro/SuperCatMeme/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/bvhpro/SuperCatMeme#readme",
+  "dependencies": {
+    "@moncici/date-time-processor": "^1.0.3",
+    "@moncici/log": "^1.0.2",
+    "@moncici/proxy": "^1.0.3",
+    "@moncici/sleep": "^1.0.1",
+    "feishu-notifier": "^1.0.3"
+  }
+}
